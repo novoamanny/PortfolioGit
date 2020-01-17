@@ -1,0 +1,42 @@
+.Summary{
+    margin: 10px 15px;
+    opacity: 0;
+    background: rgb(86,86,86, 0.9);
+    transition: ease, 0.4s;
+    padding: 30px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    color: #fff;
+}
+.Summary li{
+    width: 100%;
+    list-style: none;
+    margin: 5px 0;
+    text-align: left;
+}
+.summary-title h4{
+    text-align: left;
+    font: 17px;
+}
+
+@media(max-width: 1400px){
+    
+    .summary-title h4{
+        font-size: 14px;
+    }
+    .Summary li{
+        font-size: 14px;
+        margin: 3px 0;
+    }
+}
+@media(max-width: 1200px){
+    .Summary{
+        padding: 20px 70px;
+    }
+}
+@media(max-width: 1150px){
+    .Summary{
+        padding: 15px 50px;
+    }
+}

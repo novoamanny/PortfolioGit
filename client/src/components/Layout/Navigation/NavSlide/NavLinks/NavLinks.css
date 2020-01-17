@@ -1,0 +1,64 @@
+.Nav{
+    margin-top: 60px;
+    
+}
+.Nav-off{
+    display: none;
+}
+
+
+.nav-link{
+    
+    margin: 7px 0;
+    
+    
+    transition: ease 0.3s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.nav-link li{
+    font-size: 19px;
+    list-style: none;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.link{
+    padding: 10px 20px;
+    background: #2f2f2f;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.link-text{
+    
+    
+    margin: 0  10px;
+    
+}
+.active-link{
+    background: aliceblue;
+    transition: ease 0.3s;
+    border: 2px solid #2f2f2f;
+    
+    
+}
+.active-link i{
+    color: #2f2f2f;
+}
+.active-link li{
+    color: #2f2f2f;
+}
+.links-off{
+    display: contents;
+}
+
+@media(max-width: 1150px){
+    
+    
+}
+

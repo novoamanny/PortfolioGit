@@ -1,0 +1,222 @@
+.br-first{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.br-last{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.edu{
+    margin: 10px 15px;
+    opacity: 0;
+    background: rgb(86,86,86, 0.9);
+    transition: ease, 0.4s;
+    padding: 30px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    color: #fff;
+}
+.edu-title{
+    width: 100%;
+}
+.edu-title h4{
+    text-align: left;
+    font-size: 17px;
+}
+.edu-details li{
+    width: 100%;
+    list-style: none;
+    margin: 10px 0;
+    text-align: left;
+}
+.sch-img{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.sch-logo{
+    
+    margin: 0 60px;
+    
+}
+.sch-img-con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 10px;
+    
+    
+}
+.sch-image{
+    width: 600px;
+    height: 350px;
+    border-radius: 15px;
+    
+    
+}
+.sch-image-2{
+    width: 320px;
+    height: 300px;
+    
+    
+}
+.sch-image-3{
+    width: 320px;
+    height: 150px;
+    
+    
+}
+@media(max-width: 1600px){
+    .sch-image{
+        width: 550px;
+        height: 300px;
+        
+        
+        
+    }
+    .sch-image-2{
+        width: 280px;
+        height: 260px;
+        
+        
+    }
+    .sch-image-3{
+        width: 300px;
+        height: 140px;
+        
+        
+    }
+    .sch-logo{
+        margin: 0 20px;
+    }
+}
+
+
+@media(max-width: 1400px){
+    
+    .edu-title h4{
+        font-size: 14px;
+        
+    }
+    .edu-details li{
+        font-size: 14px;
+        
+    }
+    .sch-image{
+        width: 550px;
+        height: 300px;
+        
+        
+        
+    }
+    .sch-image-2{
+        width: 250px;
+        height: 230px;
+        
+        
+    }
+    .sch-image-3{
+        width: 250px;
+        height: 100px;
+        
+        
+    }
+    .sch-logo{
+        margin: 0 20px;
+        
+    }
+}
+@media(max-width: 1337px){
+    .sch-image-con{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sch-image-2{
+        width: 200px;
+        height: 180px;
+        margin: 10px 0;
+        
+        
+    }
+    .sch-image-3{
+        width: 250px;
+        height: 100px;
+        margin: 10px 0;
+        
+        
+    }
+    
+}
+@media(max-width: 1200px){
+    .edu{
+        padding: 20px 70px;
+    }
+
+    .sch-image{
+        width: 550px;
+        height: 300px;
+        
+        
+        
+    }
+
+    .sch-image-2{
+        width: 150px;
+        height: 130px;
+        
+        
+        
+    }
+}
+
+@media(max-width: 1150px){
+    .edu{
+        padding: 15px 50px;
+    }
+    .sch-image{
+        width: 500px;
+        height: 250px;
+        
+        
+        
+    }
+
+    .sch-image-2{
+        width: 130px;
+        height: 110px;
+        
+        
+        
+    }
+}
+@media(max-width: 900px){
+    
+    .sch-image{
+        width: 450px;
+        height: 250px;
+        
+        
+        
+    }
+
+    .sch-image-2{
+        width: 110px;
+        height: 90px;
+        
+        
+        
+    }
+    .sch-image-3{
+        width: 220px;
+        height: 90px;
+        
+        
+        
+    }
+}

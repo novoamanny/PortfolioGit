@@ -1,0 +1,45 @@
+.slide-container{
+    margin: 15px 100px;
+}
+
+
+.slide-image{
+    height: 500px;
+    
+    background: no-repeat center;
+    background-size: 100% 100%;
+    
+    
+    
+}
+.each-slide a{
+    text-decoration: none;
+    
+}
+.each-slide span{
+    position: absolute;
+    
+    bottom: 10%;
+    font-size: 30px;
+    color: #fff;
+    
+}
+
+
+
+
+@media(max-width: 750px){
+    .slide-image{
+        height: 450px;
+    }
+}
+@media(max-width: 650px){
+    .slide-image{
+        height: 400px;
+    }
+}
+@media(max-width: 550px){
+    .slide-image{
+        height: 350px;
+    }
+}
