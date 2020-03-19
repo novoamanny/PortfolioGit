@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const Nav = ({closeSlide}) =>{
 
     useEffect(() => {
-        console.log('hello')
+        
     }, [window.innerWidth])
 
     const activeHandle = (url) =>{

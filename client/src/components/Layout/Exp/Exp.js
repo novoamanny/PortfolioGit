@@ -11,7 +11,7 @@ const Exp = () =>{
                 {
                     name: 'Code Ninja | Corporate Office',
                     position: 'Full Stack Web Developer',
-                    dates: 'June/2018 - December/2019',
+                    dates: 'June/2018 - March/2020',
                     res:[
                         'Set and enforce best software development practices.',
                         'Implement new features and improve existing ones.',
